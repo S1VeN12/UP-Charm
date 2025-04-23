@@ -1,0 +1,1021 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #FF8C00; /* Цвет как на картинке */
+  }
+  
+  header nav {
+    margin-top: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+  }
+  
+  .main-content {
+    padding: 40px 0;
+  }
+  
+  .main-content h2 {
+    color: #FF8C00; /* Цвет как на картинке */
+    margin-bottom: 20px;
+  }
+  
+  .mission {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .services {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .services button {
+    background-color: #FF8C00; /* Цвет как на картинке */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Дополнительные стили (шрифты, размеры, отступы и т.д.) можно добавить здесь */
+  .light-text {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .social-icons {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 25px;  
+    height: 25px;
+  }
+  
+  .logo-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-buttons {
+    margin-top: 20px;
+  }
+  
+  .appointment-button {
+    background-color: #FF8C00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .reviews {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .reviews h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Адаптивная сетка */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .review-item {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .review-item .stars {
+    color: #ffc107;  /*  Желтый цвет звезд */
+  }
+  
+  .review-item a {
+    text-decoration: none;
+    color: #FF8C00;  /*  Цвет ссылки "Read more" */
+  }
+  
+  .review-item .author {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .review-item .author-icon {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-left: 5px;
+    border-radius: 50%;
+  }
+  
+  .verification {
+    text-align: center;
+    margin-top: 30px;
+    color: #800080; /* Dark Magenta */
+  }
+  
+  .verification .year {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .verification img {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+  }
+  
+  .small-text {
+      font-size: 0.8em; /*  Меньший размер текста */
+      color: #777; /*  Серый цвет */
+  }
+  .manicure {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+  }
+  
+  .manicure-image {
+    position: relative;
+    overflow: hidden; /* Обрезаем картинку по краям */
+  }
+  
+  .manicure-image img {
+    width: 100%;
+    display: block;
+    filter: brightness(50%); /* Затемнение картинки */
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .image-overlay h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .image-overlay p {
+    font-size: 1.2em;
+  }
+  
+  .manicure-description {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .manicure-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .price-table {
+  display: flex;
+  justify-content: space-between; /* Размещает колонки по краям */
+  margin-bottom: 20px;
+}
+
+.price-column {
+  width: 48%; /* Занимает примерно половину доступного места (с учетом небольшого отступа) */
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price-name {
+  font-weight: bold;
+}
+
+.price-values {
+  text-align: right;
+}
+
+.price-details {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.price-button {
+  text-align: center;
+}
+
+.price-button button {
+  background-color: #FF8C00; /* Цвет кнопки */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+footer {
+    background-color: #211e1e;
+    color: #BDBDBD; /* Более светлый серый текст */
+    padding: 50px 0;
+    font-size: 14px; /* Размер шрифта */
+  }
+  
+  footer a {
+    color: #BDBDBD;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }
+  
+  footer h4 {
+    color: #fff; /* Заголовки белые */
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal; /* Убираем жирность */
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    width: 23%; 
+
+  }
+  
+  .footer-column img {
+      width: 60px;  /* Примерный размер логотипа */
+      height: 60px;
+      margin-bottom: 15px;
+  }
+  
+  .footer-column .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-column .social-icons img {
+    width: 24px;  /* Примерный размер иконок соцсетей */
+    height: 24px;
+    opacity: 0.7; /* Немного прозрачности */
+  }
+  
+  .footer-column .social-icons img:hover {
+    opacity: 1; /* Без прозрачности при наведении */
+  }
+  
+  /* Изменения для секции "Контакты" */
+  .contacts {
+    text-align: center; 
+    margin: 0 auto;
+  }
+  
+  .contacts .social-icons {
+    margin-top: 15px; /* Отступ для иконок соцсетей */
+    display: flex;
+    justify-content: center; /* Центрируем иконки по горизонтали */
+  }
+  
+  .contacts .social-icons a {
+    margin: 0 5px; /* Добавляем отступы между иконками */
+  }
+  
+  /* Стили для информации о компании */
+  .company-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Увеличенный отступ */
+    padding: 30px; /* Увеличенный padding */
+    border-top: 1px solid #333; /* Более темная разделительная линия */
+    background-color: #F2E6D9; /* Оранжевый фон */
+    color: #9E9E9E; /* Более темный серый */
+    font-size: 12px; /* Меньший размер шрифта */
+  }
+  
+  .company-text,
+  .company-links {
+    width: 48%;
+  }
+  
+  .company-text p {
+    margin-bottom: 6px;
+  }
+  
+  .company-links a {
+    color: black;
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none; /* Убираем подчеркивание */
+  }
+  
+  .company-links a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }
+  .vacancies {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .vacancies h3 {
+    color: #A78A61; /*  Цвет как на скриншоте */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .vacancies h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .vacancies img {
+    width: 80%; /* Ширина картинки */
+    max-width: 800px; /* Максимальная ширина */
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .vacancies-description {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  
+  .vacancies-description p {
+    margin-bottom: 8px;
+  }
+  
+  .vacancies-button {
+    margin-top: 30px;
+  }
+  
+  .vacancies-button button {
+    background-color: #A78A61; /* Цвет кнопки */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }  
+  .hero-image {
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-image1 {
+
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+   
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Максимальная ширина текстового блока */
+    margin: 20px; /* Отступы от краев */
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* PRICES */
+.prices {
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.price-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки для цен */
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333; /* Темный цвет текста для цен */
+}
+
+.price-item:last-child {
+    border-bottom: none;
+}
+
+/* BUTTON */
+.appointment-button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    background-color: #daa520; /* Золотистый цвет кнопки */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+    background-color: #c08912; /* Более темный золотистый цвет при наведении */
+}
+
+/* Общие стили для всего макета */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        height: auto;
+        padding: 20px;
+    }
+    .price-list {
+        grid-template-columns: 1fr; /* Одна колонка на маленьких экранах */
+    }
+}
+.pedicure {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.pedicure-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.pedicure-image img {
+  width: 100%;
+  display: block;
+}
+
+.pedicure-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.pedicure-overlay h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.pedicure-overlay p {
+  font-size: 1.1em;
+}
+
+.pedicure-prices {
+  margin-top: 30px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.price-name {
+  font-weight: bold;
+  width: 30%;
+}
+
+.price-values {
+  width: 20%;
+  text-align: right;
+}
+.price-description{
+   width: 50%;
+  text-align: left;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .price-row {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .price-name,
+  .price-description,
+  .price-values {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5px;
+  }
+}
+.makeup, .depilation {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.makeup-image, .depilation-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.makeup-image img, .depilation-image img {
+  width: 100%;
+  display: block;
+  filter: brightness(50%);
+}
+
+.makeup-overlay, .depilation-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.makeup-overlay h2, .depilation-overlay h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.makeup-overlay p, .depilation-overlay p {
+  font-size: 1.1em;
+}
+
+.makeup-prices, .depilation-prices {
+  margin-top: 30px;
+}
+
+.makeup-button, .depilation-button {
+  margin-top: 30px;
+}
+
+.makeup-button button, .depilation-button button {
+  background-color: #A78A61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.makeup-prices .price-row, .depilation-prices .price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.makeup-prices .price-name, .depilation-prices .price-name {
+  font-weight: bold;
+  width: 40%;
+  text-align: left;
+}
+
+.makeup-prices .price-values, .depilation-prices .price-values {
+  width: 20%;
+  text-align: right;
+}
+.depilation-prices .price-description{
+  width: 40%;
+  text-align: left;
+}
+.laser, .solarium {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.laser-image, .solarium-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.laser-image img, .solarium-image img {
+  width: 100%;
+  display: block;
+  filter: brightness(50%);
+}
+
+.laser-overlay, .solarium-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.laser-overlay h2, .solarium-overlay h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.laser-overlay p, .solarium-overlay p {
+  font-size: 1.1em;
+}
+
+.laser-prices, .solarium-prices {
+  margin-top: 30px;
+}
+
+.laser-button, .solarium-button {
+  margin-top: 30px;
+}
+
+.laser-button button, .solarium-button button {
+  background-color: #A78A61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.laser-prices .price-row, .solarium-prices .price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.laser-prices .price-name, .solarium-prices .price-name {
+  font-weight: bold;
+  width: 40%;
+  text-align: left;
+}
+
+.laser-prices .price-values, .solarium-prices .price-values {
+  width: 20%;
+  text-align: right;
+}
+.laser-prices .price-description, .solarium-prices .price-description{
+  width: 40%;
+  text-align: left;
+}
+.modal {
+  display: none; /* Скрываем окно по умолчанию */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Затемнение фона */
+  z-index: 1000; /* Поверх всего контента */
+  overflow: auto; /* Прокрутка, если контент не помещается */
+}
+
+.modal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #777;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #a78a61;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="tel"],
+.modal-content input[type="date"],
+.modal-content input[type="time"],
+.modal-content select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.modal-content button[type="submit"] {
+  background-color: #a78a61;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto 0;
+}
+#overlay {
+  position: fixed; /* Фиксированное позиционирование */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  display: none; /* Скрыто по умолчанию */
+  z-index: 1000; /* Поверх всего остального */
+}
+
+#modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#closeBtn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#backToTopBtn {
+  position: fixed; /* Фиксированное позиционирование */
+  bottom: 20px;
+  right: 20px;
+  background-color: #a78a61; /* Синий цвет */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  opacity: 0; /* Скрыта по умолчанию */
+  transition: opacity 0.3s ease-in-out; /* Плавное появление/исчезновение */
+  z-index: 100; /* Чтобы кнопка была поверх всего остального контента */
+}
+
+#backToTopBtn.show {
+  opacity: 1; /* Показываем кнопку */
+}
+   .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .vacancies {
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+
+    .vacancies h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .vacancies-description {
+      margin-bottom: 20px;
+    }
+
+    .vacancies-button button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Стили для модальных окон */
+    .modal {
+      display: none; /* Скрыто по умолчанию */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+      z-index: 1000;
+    }
+
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .apply-button {
+      padding: 10px 20px;
+      background-color: #28a745; /* Зеленый цвет */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .about-us {
+      padding: 20px;
+    }
+    
+    .about-us h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    
+    .about-us h3 {
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    
+    .about-us p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    
+    .about-us ul {
+      list-style-type: disc;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+    
+    .about-us li {
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+    
+    /* Specialists */
+    .specialists {
+      padding: 20px;
+    }
+    
+    .specialists h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    
+    .specialist-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    
+    .specialist-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .specialist-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .specialist-card h3 {
+      font-size: 1.3em;
+      margin-bottom: 5px;
+    }
+    
+    .specialist-card p {
+      font-size: 1em;
+      color: #555;
+    }
+    img[alt="Интерьер салона"] {
+      width: 100%; /* Занимает всю ширину контейнера */
+      height: auto; /* Сохраняет пропорции */
+      display: block; /* Убирает лишние отступы снизу */
+      object-fit: cover; /* Обрезает изображение, чтобы заполнить контейнер, сохраняя пропорции */
+      object-position: center; /* Центрирует изображение */
+    }
